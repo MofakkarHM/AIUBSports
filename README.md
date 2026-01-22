@@ -1,5 +1,9 @@
 # 📱 AIUBSports
 
+![Android](https://img.shields.io/badge/Platform-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Firebase](https://img.shields.io/badge/Database-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+
 ## 💡 The Real-World Scenario
 During my time on campus, I observed a significant logistical bottleneck in how sports facilities were managed. Students had to physically visit the sports office to check for gym or field availability, which often led to scheduling conflicts, wasted time, and manual errors. Additionally, tournament registration was a slow, paper-based process.
 
@@ -36,13 +40,9 @@ I developed **AIUBSports** to solve these friction points by digitizing the enti
 
 ## 📸 App Screenshots
 
-| Student Dashboard | Booking System | Admin Dashboard |
-|:---:|:---:|:---:|
-| **[![login](https://github.com/user-attachments/assets/bc355344-319a-4b5b-8031-d81a5771b10d)
-]** | **[![studentDashboard](https://github.com/user-attachments/assets/64c66b11-bea2-4201-948a-56bd86c26e8b)
-]** | **[![availableSlots](https://github.com/user-attachments/assets/0b082060-bcd9-4507-8862-c359247a8d4b)
-]** | **![upcomingTournaments](https://github.com/user-attachments/assets/06906f46-3136-4d9d-a2f7-641cd5b9e8b8)
-]**
+| Login Screen | Student Dashboard | Booking System | Tournaments |
+|:---:|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/bc355344-319a-4b5b-8031-d81a5771b10d" width="200"> | <img src="https://github.com/user-attachments/assets/64c66b11-bea2-4201-948a-56bd86c26e8b" width="200"> | <img src="https://github.com/user-attachments/assets/0b082060-bcd9-4507-8862-c359247a8d4b" width="200"> | <img src="https://github.com/user-attachments/assets/06906f46-3136-4d9d-a2f7-641cd5b9e8b8" width="200"> |
 
 > *The interface is designed to be intuitive, allowing immediate adoption by students and staff with zero training.*
 
@@ -61,7 +61,6 @@ You can download the latest stable build of the solution here:
 ## 👤 Author & Developer
 
 **Mir Md. Mofakkar Hossain**
-
 
 ---
 
