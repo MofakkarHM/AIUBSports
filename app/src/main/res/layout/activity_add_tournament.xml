@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F9FAFC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Announce Tournament"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#0D47A1"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etTourneyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tournament Name (e.g. CS Fest)"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etSportType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sport (Football, Cricket...)"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etLastDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Date (e.g. 20 Jan)"
+        android:minHeight="48dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnCreateTourney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Tournament"
+        android:backgroundTint="#0D47A1"/>
+</LinearLayout>

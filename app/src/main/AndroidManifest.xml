@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AIUBSports">
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageSlotsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageStudentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageTournamentsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddTournamentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewTeamsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentViewNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentBookSlotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentTournamentActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

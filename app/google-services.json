@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562443511146",
+    "project_id": "aiub-sports-dfd35",
+    "storage_bucket": "aiub-sports-dfd35.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562443511146:android:be97f123ce23db0a05b113",
+        "android_client_info": {
+          "package_name": "com.example.aiubsports"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6FdkiSLst3b91LeL-PVjtLmDklCVtI2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageButton
+            android:id="@+id/btnDeleteNews"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/ic_menu_delete"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="#D32F2F"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"/>
+
+        <ImageButton
+            android:id="@+id/btnEditNews"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/ic_menu_edit"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            app:tint="#0D47A1"
+            android:layout_toStartOf="@id/btnDeleteNews"
+            android:layout_marginEnd="16dp"
+            android:layout_alignTop="@id/btnDeleteNews"/>
+
+        <TextView
+            android:id="@+id/tvNewsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/btnEditNews"
+            android:layout_marginEnd="8dp"
+            android:text="News Headline"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#212121"/>
+
+        <TextView
+            android:id="@+id/tvNewsDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNewsTitle"
+            android:layout_marginTop="4dp"
+            android:text="12 Oct 2024"
+            android:textSize="12sp"
+            android:textColor="#757575"/>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/tvNewsDate"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#EEEEEE"/>
+
+        <TextView
+            android:id="@+id/tvNewsDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/divider"
+            android:text="News description..."
+            android:textSize="15sp"
+            android:textColor="#424242"/>
+
+        <TextView
+            android:id="@+id/tvNewsLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvNewsDesc"
+            android:layout_marginTop="16dp"
+            android:text="READ FULL STORY ➜"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#0D47A1"
+            android:background="?attr/selectableItemBackground"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
